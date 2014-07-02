@@ -232,12 +232,12 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
     // 2.B.1.1
     // Variables
     var foo = "bar",
-      num = 1,
-      undef;
+        num = 1,
+        undef;
 
     // Literal notations:
     var array = [],
-      object = {};
+        object = {};
 
 
     // 2.B.1.2
@@ -251,8 +251,8 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
     // Good
     var foo = "",
-      bar = "",
-      quux;
+        bar = "",
+        quux;
 
     // or..
     var // Comment on these
@@ -270,13 +270,13 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
       // some statements here
 
       var bar = "",
-        qux;
+          qux;
     }
 
     // Good
     function foo() {
       var bar = "",
-        qux;
+          qux;
 
       // all statements after the variables declarations.
     }
@@ -558,8 +558,8 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
     // 3.B.2.1
 
     var number = 1,
-      string = "1",
-      bool = false;
+        string = "1",
+        bool = false;
 
     number;
     // 1
@@ -594,8 +594,8 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
     // 3.B.2.2
 
     var number = 1,
-      string = "1",
-      bool = true;
+        string = "1",
+        bool = true;
 
     string === number;
     // false
@@ -915,9 +915,9 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
     }
 
     var idx = 0,
-      elements = [],
-      matches = query("#foo"),
-      length = matches.length;
+        elements = [],
+        matches = query("#foo"),
+        length = matches.length;
 
     for (; idx < length; idx++) {
       elements.push(matches[ idx ]);
